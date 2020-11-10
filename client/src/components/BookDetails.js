@@ -11,7 +11,7 @@ class BookDetails extends Component {
         if(book){
             return(
                 <div>
-                    {/* <h2>{ book.name }</h2>
+                    <h2>{ book.name }</h2>
                     <p>{ book.genre }</p>
                     <p>{ book.author.name }</p>
                     <p>All books by this author:</p>
@@ -19,7 +19,7 @@ class BookDetails extends Component {
                         { book.author.books.map(item => {
                             return <li key={item.id}>{ item.name }</li>
                         })}
-                    </ul> */}
+                    </ul>
                 </div>
             );
         } else {
